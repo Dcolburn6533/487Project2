@@ -1,0 +1,85 @@
+.management-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+li .tenant-category {
+    flex: 1 1 20%;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+li .tenant-buttons {
+    flex-basis: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+li button {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.update-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
